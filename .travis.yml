@@ -38,10 +38,3 @@ install:
 
 script:
     - travis_retry tox
-
-notifications:
-    email: false
-    irc:
-      channels:
-        # chat.freenode.net#pyramid
-        - secure: S2iWooGJoLZgkYsj5vWbD0HGbl+4XkuaTPbbLSDdkfGtKrZIcY3jQMZxaNDtXXbChqkxnA+KW0vg5TjpvspGTZnFlZ59csizhwSFWAdLJR8WhdwroWFFOyH6gcSDM3wtaR7w3HHe6Ps0lHiwjljh5UjmK5YxyXuDtnYEF0JJvww=
